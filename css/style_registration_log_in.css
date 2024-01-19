@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Pointerone;
+    src: url(./fonts/PoiretOne-Regular.ttf);
+}
+
+body{
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fonregistr.png);
+    background-size: cover;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.login{
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    max-width: 463px;
+}
+
+.input_registration{
+    max-width: 280px;
+    min-width: 280px;
+    height: 54px;
+    border-radius: 11px;
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    font-family: Poiret One;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+
+.button_reg{
+    width: 210px;
+    height: 33px;
+    background-color: #FFFFFF;
+    font-family: Poiret One;
+    font-size: 20px;
+    border-radius: 11px;
+    margin-top: 32px;
+}
+
+.button_reg p{
+    margin-top: 3px;
+}
+
+.reg_container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.asd{
+}
+
+@media (min-width:768px){
+    .registration{
+        background-color: #D9D9D933;
+        width: 463px;
+        height: 566px;
+        border-radius: 11px;
+        padding-top: 45px;
+        box-sizing: border-box;
+    }
+    .login{
+        background-color: #D9D9D933;
+        width: 463px;
+        height: 566px;
+        border-radius: 11px;
+        padding-top: 45px;
+        box-sizing: border-box;
+    }
+    
+}
+

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="./css/style_main.css">
+    <link rel="stylesheet" href="./css/style_swiper.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <script src="./js/slider.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script defer src="./swiper.min.js"></script>
+    <script defer src="./js.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu" class="menu">
+            <button id="close_menu" class="close_menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M0.527202 24.5273C-0.175734 25.2302 -0.175734 26.3698 0.527202 27.0727C1.23014 27.7757 2.36985 27.7757 3.07279 27.0727L0.527202 24.5273ZM15.0727 15.0727C15.7757 14.3698 15.7757 13.2302 15.0727 12.5273C14.3698 11.8243 13.2302 11.8243 12.5273 12.5273L15.0727 15.0727ZM12.5273 12.5273C11.8243 13.2302 11.8243 14.3698 12.5273 15.0727C13.2302 15.7757 14.3698 15.7757 15.0727 15.0727L12.5273 12.5273ZM27.0727 3.07279C27.7757 2.36985 27.7757 1.23014 27.0727 0.527202C26.3698 -0.175734 25.2302 -0.175734 24.5273 0.527202L27.0727 3.07279ZM15.0727 12.5273C14.3698 11.8243 13.2302 11.8243 12.5273 12.5273C11.8243 13.2302 11.8243 14.3698 12.5273 15.0727L15.0727 12.5273ZM24.5273 27.0727C25.2302 27.7757 26.3698 27.7757 27.0727 27.0727C27.7757 26.3698 27.7757 25.2302 27.0727 24.5273L24.5273 27.0727ZM12.5273 15.0727C13.2302 15.7757 14.3698 15.7757 15.0727 15.0727C15.7757 14.3698 15.7757 13.2302 15.0727 12.5273L12.5273 15.0727ZM3.07279 0.527202C2.36985 -0.175734 1.23014 -0.175734 0.527202 0.527202C-0.175734 1.23014 -0.175734 2.36985 0.527202 3.07279L3.07279 0.527202ZM3.07279 27.0727L15.0727 15.0727L12.5273 12.5273L0.527202 24.5273L3.07279 27.0727ZM15.0727 15.0727L27.0727 3.07279L24.5273 0.527202L12.5273 12.5273L15.0727 15.0727ZM12.5273 15.0727L24.5273 27.0727L27.0727 24.5273L15.0727 12.5273L12.5273 15.0727ZM15.0727 12.5273L3.07279 0.527202L0.527202 3.07279L12.5273 15.0727L15.0727 12.5273Z" fill="white"/>
+                    </svg>
+            </button>
+            <div class="menu_list">
+                <button>Главная</button>
+                <button>Новости</button>
+                <button>Почему выбирают нас</button>
+                <button>Услуги</button>
+            </div>
+            <svg class="menu_tooth" xmlns="http://www.w3.org/2000/svg" width="160" height="280" viewBox="0 0 160 280" fill="none">
+                <path d="M270.803 95.5942C261.995 137.233 252.743 155.04 247.093 185.208C234.37 252.955 222.048 280 195.224 280C164.084 280 164.618 177.533 136.993 177.533C109.368 177.533 109.902 280 78.7627 280C73.7804 280 69.3323 279.063 65.2396 277.099C59.1006 274.154 53.8517 268.887 49.1807 260.988C40.3728 245.949 33.7001 221.403 26.8938 185.209C21.2443 155.04 11.991 137.233 3.18311 95.5942C0.113586 81.09 -0.642483 67.8354 0.513697 56.1875C3.53906 24.3221 20.5765 4.06097 43.0416 0.669245C47.4456 -0.000130711 51.8942 -0.134115 56.387 0.133854C91.4409 2.09768 127.296 28.6961 136.993 28.6961C147.892 28.6961 192.154 -5.13256 230.945 0.669245C234.593 1.20464 238.062 2.23112 241.398 3.65956C251.763 8.03292 260.393 16.5571 266.176 28.5178C274.14 44.9853 276.631 67.9688 270.803 95.5942Z" fill="white"/>
+            </svg>
+            <div class="menu_connection">
+                <h3>Связь с нами</h3>
+                <p>comfordent@gmail.com</p>
+                <div class="menu_social_network">
+                    <img src="./img/vk.svg" alt="">
+                    <img src="./img/tg.svg" alt="">
+                    <img src="./img/ws.svg" alt="">
+                    <img src="./img/vb.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header_container">
+            <img class="logo_header" src="./img/logo.png" alt="">
+            <div class="panel_button">
+                <button>Главная</button>
+                <button>Новости</button>
+                <button>Услуги</button>
+                <button>Почему выбирают нас</button>
+            </div>
+            <form>
+                <button>
+                    <input class="input" id="search" type="search" pattern=".*\S.*" required>
+                    <span class="caret"></span>
+                </button>
+
+            </form>
+              <button id="menu_button" class="menu_button">
+                <img src="./img/menu_svgrepo.com.svg" alt="">
+              </button>
+              <div class="container_login_registration">
+                <button onclick="document.location='log_in.html'">
+                    <img src="./img/login_svgrepo.com.svg" alt="">
+                </button>
+                <button>
+                    <img src="./img/account_svgrepo.com.svg" alt="">
+                </button>
+              </div>
+        </div>
+    </header>
+    <main>
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide slide1">
+                    <h1>Заботимся о вашей улыбке с <br>профессионализмом и теплом!</h1>
+                    <p class="slide_text">Запишитесь на бесплатную консультацию по уходу за зубами в нашей клинике!</p>
+                    <button class="button_slider">
+                        <p>Записаться</p>
+                    </button>
+                    <img src="./img/children.png" alt="">
+                </div> 
+                <div class="slide slide1">
+                    <h1>Мы создаем улыбки, которые<br>сверкают заботой и качеством.</h1>
+                    <p class="slide_text">Запишитесь на бесплатную консультацию по уходу за зубами в нашей клинике!</p>
+                    <button class="button_slider">
+                        <p>Записаться</p>
+                    </button>
+                    <img src="./img/chel.png" alt="">
+                </div> 
+            </div>
+            <div class="controls">
+                <button class="prev-btn">
+                    <img src="./img/left_arrow.svg" alt="">
+                </button>
+                <div class="pagination"></div>
+                <button class="next-btn">
+                    <img src="./img/right_arrow.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="main_slogan">
+            <h2>Ваша улыбка начинается здесь!</h2>
+            <div class="main_slogan__container">
+                <div class="main_slogan__container--left">
+                    <h3>Наша миссия</h3>
+                    <p>Мы стремимся создать не просто красивые улыбки, но и 
+                        заботливое и уютное место, где каждый пациент чувствует 
+                        себя как дома.
+                    </p>
+                </div>
+                <div class="main_slogan__container--right">
+                    <h3>Почему Comfort Dent?</h3>
+                    <p>Выбрав нас, вы получаете не только первоклассные 
+                        стоматологические услуги, но и заботу, которая 
+                        делает ваш визит приятным и беззаботным. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main_services">
+            <div class="main_news__header"></div>
+            <h2>Наши услуги</h2>
+            <div class="main_service__header--container">
+                <div class="service_card">
+                    <h3>Имплантация зубов</h3>
+                    <p>Дентальная имплантация - прогрессивная 
+                        технология восстановления зубов утерянных по разным причинам.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button onclick="document.location='services.html'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="service_card">
+                    <h3>Реконструкция Улыбки</h3>
+                    <p>Процедуры, направленные на улучшение 
+                        внешнего вида улыбки, включая отбеливание 
+                        зубов и коррекцию их формы.
+                    </p>
+                    <div class="service_card__line"></div>
+                    <div class="service_card__price">
+                        <p>2500₽</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                                <path d="M2.4165 22.7083L12.6248 12.4999L2.4165 2.29159" stroke="#3171ED" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_news">
+            <div class="main_news__header">
+                <h2>Новости</h2>
+                <button class="swiper__button">
+                    <p>Показать все</p>
+                </button>
+            </div>
+            <div class="main_news__news">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main_news__news--new">
+                                <div class="main_news__news--new--bgimg">
+                                    <h4>Программа Профилактики для Детей</h4>
+                                    <p class="main_news__news--new--bgimg_p">Заботимся о улыбках будущего! Запускаем 
+                                        специальную программу профилактического 
+                                        обслуживания 
+                                    </p>
+                                    <button class="main_news__news--button">
+                                        <p>Узнать больше</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_news__news--new">
+                                <div class="main_news__news--new--bgimg">
+                                    <h4>Программа Профилактики для Детей</h4>
+                                    <p class="main_news__news--new--bgimg_p">Заботимся о улыбках будущего! Запускаем 
+                                        специальную программу профилактического 
+                                        обслуживания 
+                                    </p>
+                                    <button class="main_news__news--button">
+                                        <p>Узнать больше</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_news__news--new">
+                                <div class="main_news__news--new--bgimg">
+                                    <h4>Программа Профилактики для Детей</h4>
+                                    <p class="main_news__news--new--bgimg_p">Заботимся о улыбках будущего! Запускаем 
+                                        специальную программу профилактического 
+                                        обслуживания 
+                                    </p>
+                                    <button class="main_news__news--button">
+                                        <p>Узнать больше</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main_news__news--new">
+                                <div class="main_news__news--new--bgimg">
+                                    <h4>Программа Профилактики для Детей</h4>
+                                    <p class="main_news__news--new--bgimg_p">Заботимся о улыбках будущего! Запускаем 
+                                        специальную программу профилактического 
+                                        обслуживания 
+                                    </p>
+                                    <button class="main_news__news--button">
+                                        <p>Узнать больше</p>
+                                    </button>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="pluses">
+            <h2>Почему выбирают нас</h2>
+            <div class="pluses__scroll_top">
+                <button id="1">Первоклассные врачи</button>
+                <button class="2">Оснащение клиники</button>
+                <button id="3">Персональный подход</button>
+                <button id="4">Семейная атмосфера</button>
+            </div>
+            <div class="pluses__article">
+                <p id="p1">Врачи "Comfort Dent" – это коллектив 
+                    высококвалифицированных специалистов, преданных 
+                    своему делу. Каждый из наших врачей обладает 
+                    обширным опытом в области стоматологии и продолжает 
+                    совершенствоваться, следя за последними тенденциями 
+                    в медицинской практике.
+                </p>
+                <img src="./img/circlebrecet.png">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="about_us">
+            <h3>О нас</h3>
+            <p>Свидетельства и сертификаты</p>
+            <p>Фотогалерея</p>
+            <p>Пресса о нас</p>
+            <p>Вопрос ответ</p>
+            <h3>Услуги</h3> 
+        </div>
+        <div class="info">
+            <h3>Доктора</h3>
+            <h3>Технологии</h3>
+            <h3>Заболевания</h3>
+            <h3>Новости</h3>
+        </div>
+        <div class="info">
+            <h3>Отзывы</h3>
+            <h3>Цены</h3>
+            <h3>Вакансии</h3>
+            <h3>Акции</h3>
+            <h3>Контакты</h3>
+        </div>
+        <div class="connection">
+            <h3>Связь с нами</h3>
+            <p>comfordent@gmail.com</p>
+            <div class="social_network">
+                <img src="./img/vk.svg" alt="">
+                <img src="./img/tg.svg" alt="">
+                <img src="./img/ws.svg" alt="">
+                <img src="./img/vb.svg" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
