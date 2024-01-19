@@ -434,6 +434,7 @@ footer{
   position: fixed;
   right: -320px;
   z-index: 100;
+  display: none;
 }
 
 .menu--active{
@@ -443,7 +444,7 @@ footer{
   padding: 20px;
   position: fixed;
   right: 0px;
-  
+  display: block;
 }
 
 .close_menu{
